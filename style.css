@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+* {
+    border: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+
+nav {
+    align-items: center;
+    background-color: #f1f1f1;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: black;
+    font-size: 60px;
+    font-weight: 550;
+
+}
+
+.boxCentral {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+
+
+}
+
+.boxCodigo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #010101;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    border: 3px;
+    border-style: solid;
+    border-color: #f1f1f1;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.5);
+
+}
+
+.codigo {
+    color: #f1f1f1;
+    font-size: 32px;
+
+}
+
+button {
+    background-color: #010101;
+    border-color:  #f1f1f1;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 4px;
+    color: #f1f1f1;
+    cursor: pointer;
+    font-size: 30px;
+    height: 53px;
+    margin-top: 40px;
+    width: 180px;
+
+}
+
+button:hover{
+    background-color: #f1f1f1;
+    border-color: #010101;
+    color: #010101;
+}
